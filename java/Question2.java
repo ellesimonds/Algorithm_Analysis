@@ -39,7 +39,7 @@ public class Question2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user for input
+        //prompts the user for input
         System.out.print("Enter the first string: ");
         String text1 = scanner.nextLine();
 
@@ -48,7 +48,6 @@ public class Question2 {
 
         String[] result = longestCommonSubsequence(text1, text2);
 
-        // Output the results
         System.out.println("The longest common subsequence is: \"" + result[1] + "\"");
         System.out.println("The length of the longest common subsequence is: " + result[0]);
     }
