@@ -19,7 +19,6 @@ public class Question1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user for input
         System.out.print("Enter the first string: ");
         String text1 = scanner.nextLine();
 
